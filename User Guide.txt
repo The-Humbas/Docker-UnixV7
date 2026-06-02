@@ -1,0 +1,69 @@
+# UNIX V7 PDP-11 Emulator with Docker
+
+This project provides a ready-to-run environment for the classic UNIX V7 operating system using the SIMH PDP-11 emulator inside a Docker container.
+
+## Prerequisites
+
+Before starting, ensure you have the following installed:
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+## Setup and Installation
+
+1. **Create a project folder:**
+   Create a folder on your `C:` drive named `UnixProjeto`.
+
+2. **Add the Dockerfile:**
+   Place the provided `Dockerfile` inside the `C:\UnixProjeto` folder.
+
+3. **Open PowerShell:**
+   Open your PowerShell terminal and navigate to your project folder:
+   ```powershell
+   cd C:\UnixProjeto
+
+4. **Build the Docker Image:**
+Run the following command:
+
+```PowerShell
+docker build -t unixv7 .
+
+
+5. **Running the System:**
+Start the Container:
+
+PowerShell
+docker run -it unixv7
+
+6. **Booting UNIX V7:**
+Once the simulator starts, you will see a : prompt. Type the following command to boot the kernel:
+
+```Plaintext
+
+rl(0,0)rl2unix
+
+After the # appears, congratulations! You are now logged into the UNIX system as the root user.
+
+
+Extra. **Running C on Unix**
+
+1. 
+Create the C file:
+```Bash
+echo 'main() { printf("Hello, Grupo 9!\n"); }' > hello.c
+
+2.
+Compile the code:
+```Bash
+cc hello.c
+
+3.
+Run the program:
+```Bash
+./a.out
+
+
+**How to Exit** 
+
+1. Press Ctrl + E to access the SIMH prompt (sim>).
+
+2. Type quit and press Enter to close the emulator and the container cleanly. 
