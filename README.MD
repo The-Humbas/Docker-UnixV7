@@ -1,69 +1,71 @@
-# UNIX V7 PDP-11 Emulator with Docker
+# Emulador de UNIX V7 PDP-11 com Docker
 
-This project provides a ready-to-run environment for the classic UNIX V7 operating system using the SIMH PDP-11 emulator inside a Docker container.
+Este projeto fornece um ambiente pronto para executar o clássico sistema operacional UNIX V7 usando o emulador SIMH PDP-11 dentro de um contêiner Docker.
 
-## Prerequisites
+## Pré-requisitos
 
-Before starting, ensure you have the following installed:
+Antes de começar, certifique-se de ter instalado:
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install)
 
-## Setup and Installation
+## Configuração e Instalação
 
-1. **Create a project folder:**
-   Create a folder on your `C:` drive named `UnixProjeto`.
+1. **Crie uma pasta para o projeto:**
+   Crie uma pasta no seu drive `C:` chamada `UnixProjeto`.
 
-2. **Add the Dockerfile:**
-   Place the provided `Dockerfile` inside the `C:\UnixProjeto` folder.
+2. **Adicione o Dockerfile:**
+   Coloque o `Dockerfile` fornecido dentro da pasta `C:\UnixProjeto`.
 
-3. **Open PowerShell:**
-   Open your PowerShell terminal and navigate to your project folder:
+3. **Abra o PowerShell:**
+   Abra o seu terminal PowerShell e navegue até a pasta do projeto:
    ```powershell
    cd C:\UnixProjeto
+   ```
 
-4. **Build the Docker Image:**
-Run the following command:
+4. **Construa a Imagem Docker:**
+   Execute o seguinte comando:
 
-```PowerShell
-docker build -t unixv7 .
+   ```powershell
+   docker build -t unixv7 .
+   ```
 
+5. **Executando o Sistema:**
+   Inicie o Contêiner:
 
-5. **Running the System:**
-Start the Container:
+   ```powershell
+   docker run -it unixv7
+   ```
 
-PowerShell
-docker run -it unixv7
+6. **Iniciando (Booting) o UNIX V7:**
+   Assim que o simulador iniciar, você verá um prompt `:`. Digite o seguinte comando para inicializar o kernel:
 
-6. **Booting UNIX V7:**
-Once the simulator starts, you will see a : prompt. Type the following command to boot the kernel:
+   ```plaintext
+   rl(0,0)rl2unix
+   ```
 
-```Plaintext
-
-rl(0,0)rl2unix
-
-After the # appears, congratulations! You are now logged into the UNIX system as the root user.
-
-
-Extra. **Running C on Unix**
-
-1. 
-Create the C file:
-```Bash
-echo 'main() { printf("Hello, Grupo 9!\n"); }' > hello.c
-
-2.
-Compile the code:
-```Bash
-cc hello.c
-
-3.
-Run the program:
-```Bash
-./a.out
+   Após o surgimento do `#`, parabéns! Você está logado no sistema UNIX como usuário root.
 
 
-**How to Exit** 
+## Extra: Executando C no Unix
 
-1. Press Ctrl + E to access the SIMH prompt (sim>).
+1. **Crie o arquivo C:**
+   ```bash
+   echo 'main() { printf("Olá, Grupo 9!\n"); }' > hello.c
+   ```
 
-2. Type quit and press Enter to close the emulator and the container cleanly. 
+2. **Compile o código:**
+   ```bash
+   cc hello.c
+   ```
+
+3. **Execute o programa:**
+   ```bash
+   ./a.out
+   ```
+
+
+**Como Sair**
+
+1. Pressione `Ctrl + E` para acessar o prompt do SIMH (`sim>`).
+
+2. Digite `quit` e pressione `Enter` para fechar o emulador e o contêiner de forma limpa.
