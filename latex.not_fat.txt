@@ -191,6 +191,36 @@ Shell (ksh) e o C Shell (csh). Uma característica importante é a possibilidade
 de automatizar tarefas por meio de scripts, aumentando a produtividade e 
 reduzindo erros.
 
+\section{Sistema de Arquivos}
+
+O UNIX utiliza um sistema de arquivos hierárquico organizado em formato de 
+árvore, tendo o diretório raiz representado pelo símbolo "/". Uma das 
+características mais conhecidas é a filosofia de que tudo pode ser tratado 
+como arquivo, incluindo dispositivos de hardware. Entre os diretórios mais 
+importantes estão o /bin, o /etc, o /home, o /usr e o /var, cada um com 
+funções específicas na organização do sistema.
+
+\section{Gerenciamento de Processos}
+ 
+Um dos fatores que contribuem para a eficiência do UNIX é seu sistema de 
+gerenciamento de processos. Cada programa em execução recebe um identificador 
+único chamado PID. O UNIX foi projetado para operar em ambientes multiusuário 
+e multitarefa, permitindo que vários usuários utilizem o sistema 
+simultaneamente enquanto diversos programas são executados ao mesmo tempo. 
+O Kernel distribui os recursos disponíveis de forma equilibrada, garantindo 
+desempenho adequado para todas as tarefas.
+
+\section{Segurança e Controle de Acesso}
+ 
+A segurança sempre foi uma preocupação importante no desenvolvimento do UNIX. 
+O sistema utiliza um modelo baseado em usuários, grupos e permissões. Cada 
+arquivo possui permissões específicas de leitura, escrita e execução, que 
+podem ser atribuídas ao proprietário, aos membros de um grupo ou aos demais 
+usuários. Esse modelo contribuiu significativamente para a reputação do UNIX 
+como um sistema confiável, especialmente em ambientes corporativos, acadêmicos 
+e servidores.
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                 METODOLOGIA                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
