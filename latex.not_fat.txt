@@ -1,5 +1,5 @@
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% PROJETO MOBILE - AV2
+%% PROJETO SISTEMAS OPERACIONAIS - AV2
 %% UNINASSAU - CIÊNCIA DA COMPUTAÇÃO
 %% MODELO COMPLETO ABNTEX2 - OVERLEAF
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -146,6 +146,19 @@
 
 \chapter{Introdução}
 
+\section{Contextualização}
+
+
+\section{Relevância do Tema}
+
+O estudo do UNIX permanece relevante mesmo décadas após sua criação. 
+Sua arquitetura influenciou diretamente o desenvolvimento de sistemas 
+modernos amplamente utilizados, como Linux, Android e macOS. Compreender 
+os fundamentos do UNIX permite que estudantes e profissionais de computação 
+entendam melhor como os sistemas operacionais gerenciam recursos, processos 
+e segurança. Em ambientes corporativos, acadêmicos e de servidores, sistemas 
+derivados do UNIX continuam sendo referência de estabilidade e confiabilidade.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -154,6 +167,26 @@
 
 \chapter{Objetivos}
 
+\section{Objetivo Geral}
+
+Analisar a estrutura e o funcionamento do sistema operacional UNIX, 
+compreendendo o papel de seus principais componentes e sua influência 
+no desenvolvimento dos sistemas operacionais modernos.
+
+\section{Objetivos Específicos}
+
+\begin{itemize}
+
+   \item Estudar a arquitetura em camadas do UNIX, identificando as 
+    funções do Kernel, Shell e programas utilitários;
+    \item Analisar o gerenciamento de processos, memória e dispositivos 
+    de entrada e saída realizados pelo Kernel;
+    \item Compreender a organização do sistema de arquivos hierárquico 
+    do UNIX;
+    \item Examinar os mecanismos de segurança e controle de acesso 
+    presentes no sistema;
+    \item Identificar a influência do UNIX no desenvolvimento de sistemas 
+    modernos como Linux, Android e macOS.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
