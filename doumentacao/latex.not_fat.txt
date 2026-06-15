@@ -31,8 +31,7 @@
 \usepackage{hyperref}
 \usepackage{indentfirst}
 \usepackage{caption}
-\usepackage{etoolbox}
-
+\usepackage{etoolbox} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%            CONFIGURAÇÕES GERAIS                %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -100,7 +99,47 @@
 
 \begin{center}
 
-{\Huge \textbf{CAPA}}
+\includegraphics[width=5cm]{imagens/logo-uninassau.png}
+
+\vspace{1cm}
+
+{\large \textbf{CENTRO UNIVERSITÁRIO MAURÍCIO DE NASSAU}}
+
+\vspace{0.3cm}
+
+{\large CURSO DE CIÊNCIA DA COMPUTAÇÃO}
+
+\vspace{3cm}
+
+{\Huge \textbf{PROJETO UNIX}}
+
+\vspace{1cm}
+
+{\Large Desenvolvimento de Sistema Operacionais Unix}
+
+\vspace{3cm}
+
+\textbf{Integrantes}
+
+Anderson Vieira\\
+Everton Matias\\
+Eduardo Felipe\\
+Fernando Gabriel\\
+Humberto Alves\\
+João Carlos\\
+Italo Henrique\\
+Victor de Alessandrine
+
+
+\vfill
+
+Disciplina: Sistemas Operacionais\\
+Professor(a): Anderlan
+
+\vspace{2cm}
+
+Maceió - AL\\
+2026
 
 \end{center}
 
@@ -114,7 +153,36 @@
 
 \begin{center}
 
-{\Large \textbf{CONTRACAPA}}
+NOME DOS ALUNOS\\
+Anderson Vieira dos Santos\\
+Eduardo Felipe da Silva Gomes\\
+Everton Matias da Silva\\
+Fernando Gabriel Souza de Lima\\
+Humberto Alves da Silva\\
+João Carlos Oliveira da Silva\\
+Italo Henrique dos Santos\\
+Victor de Alessandrine Mendonça Lopes
+
+\vspace{4cm}
+
+{\Large \textbf{PROJETO UNIX}}
+
+\vspace{4cm}
+
+\begin{flushright}
+
+Trabalho apresentado à disciplina de Sistemas Operacionais do curso de Ciência da Computação do Centro Universitário Maurício de Nassau — UNINASSAU, como requisito para obtenção da nota da AV2.
+
+\vspace{1cm}
+
+Professor(a): Anderlan
+
+\end{flushright}
+
+\vfill
+
+Maceió - AL\\
+2026
 
 \end{center}
 
@@ -277,6 +345,37 @@ e servidores.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Conclusão}
+
+Este trabalho permitiu compreender a estrutura e o funcionamento do 
+sistema operacional UNIX, um dos mais importantes e influentes da 
+história da computação. Por meio do estudo de sua arquitetura em 
+camadas, foi possível analisar o papel de cada componente — Kernel, 
+Shell e programas utilitários — e entender como eles trabalham em 
+conjunto para garantir um ambiente eficiente, seguro e estável.
+
+O Kernel se destacou como o elemento central do sistema, sendo 
+responsável pelo gerenciamento de processos, memória, dispositivos 
+de entrada e saída, sistema de arquivos e mecanismos de segurança. 
+Sua atuação como intermediário entre o software e o hardware garante 
+que os recursos do computador sejam utilizados de forma organizada 
+e controlada, sem que programas comuns possam comprometer a 
+estabilidade do sistema.
+
+A relação histórica entre o UNIX e a linguagem C, consolidada em 
+1973 com a reescrita completa do sistema, demonstrou como a escolha 
+de uma linguagem eficiente contribuiu para a portabilidade e a 
+longevidade do UNIX. Além disso, a utilização de ferramentas como 
+Docker Desktop, PowerShell e WSL durante o desenvolvimento prático 
+deste projeto evidenciou como os conceitos do UNIX permanecem 
+presentes e aplicáveis nos ambientes computacionais modernos.
+
+Conclui-se que o UNIX representa um marco fundamental na evolução 
+dos sistemas operacionais. Seus princípios de organização modular, 
+controle de acesso, gerenciamento eficiente de recursos e filosofia 
+de tratamento uniforme de arquivos influenciaram diretamente o 
+desenvolvimento de sistemas como Linux, Android e macOS, que 
+continuam amplamente utilizados em servidores, dispositivos móveis 
+e infraestruturas corporativas ao redor do mundo.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                    FIM                          %%
