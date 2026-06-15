@@ -399,9 +399,80 @@ fontes:
 
 \chapter{Ferramentas Utilizadas}
 
+Para a construção e execução do ambiente Docker deste projeto, foram 
+utilizadas três ferramentas principais, cada uma com papel específico 
+no processo de instalação, configuração e gerenciamento dos contêineres.
+
+\section{Docker Desktop}
+
+O Docker Desktop foi a principal ferramenta utilizada para instalação, 
+gerenciamento e execução dos contêineres Docker no ambiente Windows. 
+Trata-se da plataforma oficial disponibilizada pelo Docker para sistemas 
+operacionais Windows e macOS, oferecendo uma interface integrada para 
+administração de contêineres, imagens, volumes e redes. Além de simplificar 
+a instalação do Docker Engine, realiza integração automática com o Windows 
+Subsystem for Linux (WSL), permitindo que os contêineres sejam executados 
+em um ambiente Linux compatível.
+
+\section{PowerShell}
+
+O PowerShell foi utilizado como terminal principal para execução dos 
+comandos necessários durante o processo de instalação, configuração e 
+gerenciamento do Docker. Por meio dele foram realizados procedimentos como 
+verificação do ambiente, instalação de dependências, configuração do WSL 
+e execução de comandos relacionados aos contêineres. Ele funciona como 
+interface de acesso ao subsistema Linux e às ferramentas Docker instaladas.
+
+\section{Windows Subsystem for Linux (WSL)}
+
+O Windows Subsystem for Linux (WSL) foi uma ferramenta indispensável para 
+a execução do projeto. O Docker utiliza recursos do kernel Linux para o 
+funcionamento de seus contêineres e, por esse motivo, não opera de forma 
+totalmente nativa sobre o kernel do Windows. O WSL atua como uma camada 
+de compatibilidade que permite a execução de distribuições Linux diretamente 
+dentro do sistema operacional Windows, sem a necessidade de máquinas virtuais 
+tradicionais, garantindo maior desempenho, menor consumo de recursos e 
+compatibilidade com aplicações desenvolvidas para Linux.
+
+\section{A Relação entre UNIX e a Linguagem C}
+
+O UNIX e a linguagem C foram desenvolvidos um para o outro. Em 1973, o UNIX 
+foi inteiramente reescrito em C, consolidando essa relação histórica. O 
+ecossistema conta com um compilador integrado que traduz o código escrito 
+em C para Assembly e posteriormente para linguagem de máquina, resultando 
+em programas nativos altamente eficientes que podem ser executados e 
+reutilizados sempre que necessário.
+
+
+\chapter{Ferramentas Utilizadas}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%           DIFICULDADES ENCONTRADAS              %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Dificuldades Encontradas}
+
+Durante o desenvolvimento deste trabalho, foram enfrentados alguns 
+desafios que merecem ser destacados.
+
+\textbf{Configuração e execução do Docker}: A principal dificuldade 
+técnica encontrada foi fazer o ambiente Docker funcionar corretamente 
+no sistema operacional Windows. O processo exigiu a instalação e 
+configuração do Docker Desktop em conjunto com o Windows Subsystem 
+for Linux (WSL), o que demandou atenção a detalhes como compatibilidade 
+de versões, habilitação de recursos do sistema e ajustes nas 
+configurações do ambiente. Erros durante a inicialização dos 
+contêineres exigiram pesquisa e testes até que o ambiente estivesse 
+completamente estável e funcional.
+
+\textbf{Levantamento de informações sobre o tema}: Outra dificuldade 
+encontrada foi reunir materiais confiáveis e aprofundados sobre a 
+arquitetura do UNIX e seu funcionamento interno. Por se tratar de um 
+sistema com décadas de história, parte da documentação disponível 
+encontra-se desatualizada ou dispersa em diferentes fontes, exigindo 
+maior dedicação na seleção e análise dos conteúdos mais relevantes 
+e adequados ao escopo do trabalho.
+
 
 \chapter{Dificuldades Encontradas}
 
