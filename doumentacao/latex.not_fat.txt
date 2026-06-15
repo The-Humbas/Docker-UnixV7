@@ -250,6 +250,16 @@ File System. Security.
 
 \section{Contextualização}
 
+O UNIX é um dos sistemas operacionais mais importantes da história da computação.
+Desenvolvido no final da década de 1960 nos Laboratórios Bell, ele foi projetado com o objetivo de
+oferecer um ambiente eficiente, estável e flexível para o uso de computadores. Sua importância vai
+muito além de sua utilização direta, pois diversos sistemas modernos foram influenciados por seus
+conceitos e arquitetura. Linux, Android e macOS são alguns dos exemplos de tecnologias que
+herdaram características fundamentais do UNIX. O estudo de sua estrutura permite compreender
+melhor como os sistemas operacionais funcionam e como ocorre a interação entre software,
+hardware e usuários.
+
+
 
 \section{Relevância do Tema}
 
@@ -444,8 +454,6 @@ em programas nativos altamente eficientes que podem ser executados e
 reutilizados sempre que necessário.
 
 
-\chapter{Ferramentas Utilizadas}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%           DIFICULDADES ENCONTRADAS              %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -473,8 +481,6 @@ encontra-se desatualizada ou dispersa em diferentes fontes, exigindo
 maior dedicação na seleção e análise dos conteúdos mais relevantes 
 e adequados ao escopo do trabalho.
 
-
-\chapter{Dificuldades Encontradas}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                 CONCLUSÃO                       %%
