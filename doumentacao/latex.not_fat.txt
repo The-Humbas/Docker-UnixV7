@@ -194,11 +194,45 @@ Maceió - AL\\
 
 \chapter*{Resumo}
 
+Este trabalho apresenta um estudo sobre a estrutura e o funcionamento do 
+sistema operacional UNIX, um dos mais importantes da história da computação. 
+Desenvolvido no final da década de 1960 nos Laboratórios Bell, o UNIX foi 
+projetado para oferecer um ambiente eficiente, estável e flexível. O estudo 
+aborda sua arquitetura em camadas, composta pelo Kernel, Shell e programas 
+utilitários, analisando as responsabilidades de cada componente. São 
+examinadas as funções do Kernel no gerenciamento de processos, memória e 
+dispositivos de entrada e saída, bem como o papel do Shell na interação com 
+o usuário. Também são discutidos o sistema de arquivos hierárquico, o 
+controle de acesso e os mecanismos de segurança. Por fim, destaca-se a 
+influência do UNIX no desenvolvimento de sistemas modernos como Linux, 
+Android e macOS.
+
+\vspace{0.5cm}
+
+\textbf{Palavras-chave:} UNIX. Kernel. Shell. Sistema Operacional. 
+Gerenciamento de Processos. Sistema de Arquivos. Segurança.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                   ABSTRACT                      %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter*{Abstract}
+
+This paper presents a study on the structure and functioning of the UNIX 
+operating system, one of the most important in the history of computing. 
+Developed in the late 1960s at Bell Laboratories, UNIX was designed to 
+provide an efficient, stable and flexible environment. The study addresses 
+its layered architecture, composed of the Kernel, Shell and utility programs, 
+analyzing the responsibilities of each component. The functions of the Kernel 
+in process management, memory and input/output devices are examined, as well 
+as the role of the Shell in user interaction. The hierarchical file system, 
+access control and security mechanisms are also discussed. Finally, the 
+influence of UNIX on the development of modern systems such as Linux, Android 
+and macOS is highlighted.
+\vspace{0.5cm}
+
+\textbf{Keywords:}  UNIX. Kernel. Shell. Operating System. Process Management. 
+File System. Security.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                   SUMÁRIO                       %%
@@ -327,6 +361,37 @@ e servidores.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Metodologia}
+
+Este trabalho foi desenvolvido por meio de pesquisa bibliográfica e 
+descritiva, com abordagem qualitativa. O estudo baseou-se na leitura, 
+análise e síntese de materiais acadêmicos e técnicos relacionados ao 
+sistema operacional UNIX, seu histórico, arquitetura e influência nos 
+sistemas modernos.
+
+\section{Tipo de Pesquisa}
+
+A pesquisa caracteriza-se como bibliográfica, pois foi construída a 
+partir de material já elaborado, composto principalmente por livros, 
+artigos científicos e documentações técnicas. É também descritiva, 
+pois busca descrever e analisar as características e o funcionamento 
+do sistema operacional UNIX sem interferência ou manipulação dos 
+dados estudados.
+
+\section{Fontes Utilizadas}
+
+Para o desenvolvimento deste trabalho foram consultadas as seguintes 
+fontes:
+
+\begin{itemize}
+    \item Livros clássicos sobre sistemas operacionais e arquitetura 
+    UNIX;
+    \item Artigos acadêmicos sobre o desenvolvimento histórico do UNIX 
+    e sua influência nos sistemas modernos;
+    \item Documentações técnicas oficiais sobre o funcionamento do 
+    Kernel, Shell e sistema de arquivos;
+    \item Materiais de referência sobre Linux, Android e macOS como 
+    sistemas derivados do UNIX.
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%          LEVANTAMENTO DE REQUISITOS             %%
